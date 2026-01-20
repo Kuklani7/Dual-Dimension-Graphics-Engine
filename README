@@ -1,0 +1,15 @@
+Dual-Dimension Graphics Engine (DDGE)
+
+Dual-Dimension Graphics Engine (DDGE) is a high-performance, cross-language game engine designed to support smooth, real-time rendering and scalable gameplay systems. Built using C++ and Java, DDGE integrates modern graphics and physics technologies to deliver responsive and visually consistent game experiences.
+
+At its core, DDGE features a Vulkan-based rendering pipeline optimized for handling complex multi-object scenes. The engine is capable of maintaining a stable 60+ FPS even under heavy scene loads, ensuring smooth frame pacing and low-latency rendering. Careful resource management and pipeline synchronization allow DDGE to fully leverage low-level GPU control provided by Vulkan.
+
+For physics simulation, DDGE integrates Box2D, enabling accurate 2D collision detection, rigid body dynamics, and realistic interactions between entities. This allows developers to focus on gameplay logic while relying on a proven physics engine for consistency and stability.
+
+The engine architecture strongly emphasizes object-oriented programming principles, including inheritance and polymorphism, to create reusable and extensible components. Custom data structures such as trees and linked lists are used to efficiently manage entities, scenes, and path-finding logic. This design improves performance while keeping the engine modular and easy to extend.
+
+DDGE also includes a scalable animation framework built around sprite-sheet assets and a precise frame-timing system. This framework ensures fluid animations, consistent visual transitions, and reliable timing across different hardware configurations.
+
+Version control and collaborative development are supported through Git, enabling structured iteration and maintainable code evolution.
+
+DDGE is ideal for developers interested in low-level graphics programming, engine architecture, and performance-oriented game development. Contributions, feedback, and experimentation are welcome.
